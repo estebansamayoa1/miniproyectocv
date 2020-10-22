@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    .titulo{
+    color: white;
+    text-align: center;
+    margin-right: 0px;
+    text-decoration: none;
+    font-size: 20px;
+    }
+    .texto3{
+    color: #00AAB0;
+    text-align: center;
+    margin-right: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    }
+    .header {
+    padding: 200px 50px;
+    width:300px;
+    margin:500px;
+    margin-top: -200px;
+    text-align: center;
+    background: #3C3E3E;
+    color: #00AAB0;
+    text-shadow: 4px 4px 8px #000;
+    font-size: 20px;
+    }
+    .menu a {
+      float: left;
+      color: #00AAB0;
+      text-align: center;
+      margin-left: -35px;
+      padding: 10px 110px;
+      text-decoration: none;
+      font-size: 17px;
+      margin-left:right;
+    }
+    .alinear{
+        text-align:center;
+    }
+</style>
+</head>
+<body style="background-color: grey">
+    <div class="header">
+        <img src="{{fotografia}}" alt="Foto de perfil" style="width:200px;height:200px;">
+        <h1 class="titulo">LINK TREE ESTEBAN SAMAYOA</h1>
+        <ul class="texto3">
+            <div class="menu">
+                <a href="/personal" >Curriculum<br></a>
+            {% for social in links %}
+                {%for name, link in social.items()%}
+                    <a href="{{link}}" >{{name}} <br></a>
+                {% endfor %}
+            {% endfor %}
+            </div>
+        </ul> 
+    </div>
+     
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,37 @@
+fotografia: yo.jpg
+fondo: foto.png
+informacion_pagina:
+  autor: Esteban Samayoa
+  titulo: CV
+informacion_personal:
+  nombre_completo: Esteban Samayoa Castillo
+  pais_de_nacimiento: Guatemala
+  idiomas:
+    - Español
+    - Ingles
+  edad: 19
+  acerca_de_mi: Soy una persona muy dedicada y apasionada en las todas las cosas que hago. Me considero una persona bastante flexible ya que puedo adaptarme a las situaciones que se necesiten.
+  experiencia: Computer Science
+  interes:
+    - Programación
+    - Leer
+informacion_profesional:
+  tecnologias:
+    - Python
+    - Java
+    - C
+  educacion: Universidad Francisco Marroquin
+informacion_referencias:
+    referencias_laborales:
+      - Tigo: 3390-2415
+      - Pali Deli: 2345-6789
+      - Cementos Progreso: 2134-4756
+    referencias_personales:
+      - Nickolas Nolte: 5678-9347
+      - Juan Luis Fernandez: 2345-6789
+      - Marcela Melgar: 5256-7890
+links:
+  - Github: https://github.com/estebansamayoa1/programacion1
+  - Instagram: https://www.instagram.com/esteban.samayoa/
+  - Twitter: https://twitter.com/estebansamayoa4
+
